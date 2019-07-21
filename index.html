@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ERS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employment Reimbursement System</h1>
+    
+    <div id = "user-main-container">  
+        <p>User Data</p>
+   <div> 
+           <label for="userId">User Id:</label>
+        <input type="text" id="user_id" name="user_model">
+      </div>
+      <div>
+        <label for="userName">User Name:</label>
+        <input type="text" id="user_name" name="user_mail">
+      </div>
+      
+      <div><label for="pwd">Password:</label>
+      <input type="password" id="pwd" ></div>
+      
+      <div>
+    <div><label for="email">Email:</label>
+      <input type="email" id="email"> </div>
+    
+    <div><label for="fname">First Name:</label>
+      <input type="text" id="first_name"> </div>
+      
+      <div><label for="lname">Last Name:</label>
+      <input type="text" id="last_name"></div>
+      
+      <div><label for="pwd">Password:</label>
+      <input type="text" id="pwd"> </div>
+    
+      <div>
+      <label for="role">Role:</label>
+      <input type="role" id="role"  name="email">
+      </div>
+      </div>
+<br>
+      <div id="submit-form-user">
+       <!-- <input type="text" id="submit-input-user"> -->
+        <button id="submit-user">Request User</button>
+    <!--    <button id="submit-user" onclick="getUserInfoDiv()">Request</button> -->
+    </div>
+  </div>
+    
+    <div id = "parent-reimbursement">
+    <div id = "reimbursement-main-container">  
+      <p>Reimbursement Data</p>
+
+      <div> 
+           <label for="Id">Reimbursement Id:</label>
+        <input type="text" id="reimbursement_id" name="reimbursement_model">
+      </div>
+      <div>
+        <label for="authorName">Author:</label>
+        <input type="text" id="author" name="author_number">
+      </div>
+      
+    <div><label for="amount">Amount:</label>
+      <input type="text" id="reimbursement_amount"> </div>
+      
+      <div><label for="dateSubmitted">Date Submitted:</label>
+      <input type="text" id="date_submitted"></div>      
+
+      <div><label for="dateResolved">Date Resolved:</label>
+        <input type="text" id="date_resolved"></div>      
+  
+      <div>
+      <label for="description">Description:</label>
+      <input type="text" id="description"></div>
+     
+      <div>
+        <label for="resolver">Description:</label>
+        <input type="text" id="resolver"></div>
+        <div>
+          <label for="status_label">Status:</label>
+          <input type="text" id="status"></div>
+          <div>
+            <label for="type">Type:</label>
+            <input type="text" id="type"></div>
+            
+            <div id="submit-form-user">
+              <input type="text" id="submit-input-user">
+              <button id="submit-reimbursement">Request Reimbursement</button>
+          </div>
+      
+    </div>
+  </div>
+
+    
+      <script src="script.js"></script>
+</body>
+</html>

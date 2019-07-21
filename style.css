@@ -1,0 +1,32 @@
+.main-container {
+    border: 1px solid black;
+
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: palevioletred;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+#user-main-container {
+
+   margin: 50px;
+   border: 1px solid black;
+
+}
+
+#reimbursement-main-container
+ {
+
+    margin: 50px;
+    border: 1px solid blue;
+ 
+ }
