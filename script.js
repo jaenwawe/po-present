@@ -15,8 +15,6 @@ submitButton.addEventListener("click", () => {
   removeElement("reimbursement-main-container")
 }); 
 
-
-
 function removeElement(elementId) {
     // Removes an element from the document
    console.log(elementId);
